@@ -5,4 +5,4 @@
       { "id": 3, "name": "Smartphone", "price": 699, "image": "images/smartphone.jpg" },
       { "id": 4, "name": "Camera", "price": 499, "image": "images/camera.jpg" }
     ]
-  }
+}
