@@ -87,6 +87,12 @@ header input[type="text"] {
     justify-content: space-between;
     margin-bottom: 10px;
 }
+.cart-item button {
+    color: red;
+}
+.cart-item button hover {
+    color: darkred
+}
 
 #checkoutButton {
     padding: 10px 20px;
@@ -100,7 +106,6 @@ header input[type="text"] {
 #checkoutButton:hover {
     background-color: #0056b3;
 }
-
 footer {
     text-align: center;
     padding: 10px;

@@ -11,6 +11,9 @@ const products = [
     { id: 3, name: "Smartphone", price: 699, image: "images/smartphone.jpg" },
     { id: 4, name: "Camera", price: 499, image: "images/camera.jpg" },
 ];
+document.addEventListener('DOMContentLoaded', function () {
+    displayProducts(products);
+});
 
 function displayProducts(products) {
     const productList = document.getElementById("productList");
@@ -42,6 +45,7 @@ function addToCart(productId) {
     const product = products.find(p => p.id === productId);
     cart.push(product);
     alert(`${product.name} added to the cart!`);
+    viewCart();
 }
 function viewCart() {
     const cartList = document.getElementById("cartList");
